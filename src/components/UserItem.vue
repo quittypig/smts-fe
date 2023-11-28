@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { UserDto } from '@/stores/userStore'
-import CalculateButton from "@/components/CalculateButton.vue";
+import CalculateButton from '@/components/CalculateButton.vue'
 
 defineProps({
   user: UserDto

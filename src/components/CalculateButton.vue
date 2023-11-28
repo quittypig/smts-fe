@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import {useUserStore, UserDto} from '@/stores/userStore'
+import { useUserStore, UserDto } from '@/stores/userStore'
 
 defineProps({
   user: UserDto
 })
 
-const {increaseStars, decreaseStars} = useUserStore()
-
+const { increaseStars, decreaseStars } = useUserStore()
 </script>
 
 <template>

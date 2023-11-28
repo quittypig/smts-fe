@@ -7,7 +7,6 @@ const userStore = useUserStore()
 userStore.fetchUsers()
 
 const users = userStore.state
-
 </script>
 
 <template>
